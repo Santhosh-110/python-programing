@@ -1,5 +1,5 @@
-def palindrome():
-    s="wordpad"
+#part 1
+def palindrome(s): 
     print(s)
     a=s[::-1]
     print(a)
@@ -7,4 +7,15 @@ def palindrome():
         print("is palindrome")
     else:
         print("not palindrome")
-palindrome()
+palindrome("wordpad")
+
+#part 2
+def palindrome(n):
+    
+    if n==n[::-1]:
+        print("this is palindrome")
+        # return n
+    else:
+        print("this is not palindrome!")
+        # return n
+palindrome("malayalam")
